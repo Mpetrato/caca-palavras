@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça-Palavras</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section
+    class="section-toolbar"
+  >
+    <div
+      class="container-toolbar"
+    >
+      <img src="logo.png" alt="logo">
+    </div>
+  </section>
+
+  <section
+    class="header-section"
+  >
+    <div
+      class="header-container"
+    >
+      <div
+        class="header-left-wrapper"
+      >
+        <div
+          class="header-left-wrapper-content"
+        >
+          <h4>Como jogar</h4>
+
+          <p>
+            Para <strong>selecionar a palavra</strong> no quadro de palavras, utilize o clique direito do mouse, <br> <strong>segure e arraste para formar o caminho(rastro) a ser perseguido</strong> para formar as palavras. 
+          </p>
+
+          <p
+            style="display: block; margin-top: 8px;"
+          >
+            As palavras estão na diagonal, vertical e horizontal podendo estar de trás para frente ou não. 
+          </p>
+        </div>
+
+        <div
+          class="header-left-wrapper-content"
+        >
+          <h4>Tempo e Finalização</h4>
+
+          <p>
+            O tempo será marcado durante do jogo para definir um ranking. O jogo só poderá ser finalizado ao marcar todas as palavras no quadro. 
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="header-right-wrapper"
+      >
+        <div
+          class="header-right-wrapper-box"
+        >
+          <div
+            class="header-right-wrapper-box-button"
+          >
+            INICIAR
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="section-content"
+  >
+    <div class="content-container">
+      <div class="content-container-left">
+        <div class="grid" id="grid"></div>
+      </div>
+
+      <div class="content-container-right">
+        <div class="word-list">
+            <ul
+              id="words"
+            />
+        </div>
+
+        <button>
+          FINALIZAR
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
